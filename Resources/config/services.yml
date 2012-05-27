@@ -1,0 +1,7 @@
+parameters:
+#    dan_flot.example.class: Dan\FlotBundle\Example
+
+services:
+#    dan_flot.example:
+#        class: %dan_flot.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
