@@ -1,12 +1,14 @@
 FlotBundle
 ==========
 
-The DanFlotBundle embed in Symfony 2 the Flot jQuery libraries
+The DanFlotBundle embed in Symfony 2 the Flot jQuery libraries.
+You can find here [Flot](http://code.google.com/p/flot/)
+
 
 Installation
 ------------
 
-Installation is a quick 8 step process:
+Installation is a quick 4 step process:
 
 1. Download DanFlotBundle
 2. Configure the Autoloader
@@ -39,12 +41,16 @@ Add the following lines in your `deps` file:
 [Flot]
     git=git://github.com/flot/flot.git
     target=bundles/Dan/FlotBundle/Resources/public/js/flot
+    version=v0.7
 ```
 
 Now, run the vendors script to download the bundle:
 
 ``` bash
 $ php bin/vendors install
+  or
+$ php bin/vendors update
+
 ```
 
 **Using submodules**
